@@ -17,6 +17,9 @@ const GlobalStyles = createGlobalStyle`
   ${({ theme }) => css`
     body {
       height: auto;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
       font-size: ${({ theme }) => theme.font.sizes.xsmall};
       color: ${({ theme }) => theme.colors.white};
       background: ${({ theme }) => theme.colors.gray};
