@@ -1,3 +1,18 @@
+## Objetivo
+
+“Listar os usuários e seus detalhes em uma interface web”
+
+API que deve utilizar para os usuários é a:
+https://randomuser.me/
+
+### Processo de implementação:
+
+Achei bem tranquilo implentar esta listagem usando NextJs, React Query, axios e etc...
+Utilizei o material Ui para pegar component pronto de botão porem ele possui diversos outros compoentes que podem ser utilzado em sua aplicação.
+o que não gostei muito da API é que ela não te informa o número de páginas totais para que você possa gerenciar isso no hook com a paginação.
+Fora isso foi bem simples implementar!
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
